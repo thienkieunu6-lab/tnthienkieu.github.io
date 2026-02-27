@@ -3,94 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tết Quê Em - Trang chủ</title>
-  <meta name="description" content="Trang chủ website Tết quê hương Tuy Hòa với banner, giới thiệu ngắn, mục nổi bật và album ảnh." />
+  <title>Tết Quê Em - Tuy Hòa</title>
+  <meta name="description" content="Website một trang giới thiệu Tết quê hương Tuy Hòa: phong tục, ẩm thực, văn hóa, hình ảnh và liên hệ." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be%20Vietnam%20Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
+  <header class="hero" id="home">
     <nav class="navbar container">
-      <a class="logo" href="index.html">Tết Quê Em</a>
+      <a class="logo" href="#home">Tết Quê Em</a>
       <ul class="menu">
-        <li><a href="index.html">Trang chủ</a></li>
-        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
-        <li><a href="phong-tuc.html">Phong tục</a></li>
-        <li><a href="am-thuc.html">Ẩm thực</a></li>
-        <li><a href="van-hoa.html">Văn hóa</a></li>
-        <li><a href="lien-he.html">Liên hệ</a></li>
+        <li><a href="#gioi-thieu">Giới thiệu</a></li>
+        <li><a href="#phong-tuc">Phong tục</a></li>
+        <li><a href="#am-thuc">Ẩm thực</a></li>
+        <li><a href="#van-hoa">Văn hóa</a></li>
+        <li><a href="#album">Ảnh đẹp</a></li>
+        <li><a href="#lien-he">Liên hệ</a></li>
       </ul>
     </nav>
 
     <div class="hero-content container">
       <p class="eyebrow">Tết ở Tuy Hòa - phường Tuy Hòa, tỉnh Đắk Lắk</p>
-      <h1>Không khí xuân quê biển, ấm tình gia đình</h1>
-      <p>
-        Nơi gói gọn những ký ức đẹp trong vòng một tuần ngắn ngủi về quê ăn Tết, quây quần bên gia đình.
-        Nơi mô tả ngày tết ở Phú Yên nói chung và ở khuôn viên nhà nói riêng.
-      </p>
-      <a class="btn btn-primary" href="phong-tuc.html">Xem phong tục chi tiết</a>
+      <h1>Trang web một trang cho dễ nhìn, dễ nộp bài</h1>
+      <p>Giới thiệu phong tục, ẩm thực, văn hóa và kỷ niệm Tết quê hương trong cùng một trang.</p>
+      <a class="btn btn-primary" href="#phong-tuc">Bắt đầu khám phá</a>
     </div>
   </header>
 
   <main>
-    <section class="section container">
-      <h2>Giới thiệu ngắn</h2>
+    <section class="section container" id="gioi-thieu">
+      <h2>1. Giới thiệu ngắn</h2>
       <div class="grid-3">
         <article class="card">
-          <h3>Tết quê mình diễn ra ở đâu?</h3>
+          <h3>Tết ở đâu?</h3>
           <p>Tại thành phố Tuy Hòa (nay là phường Tuy Hòa, tỉnh Đắk Lắk).</p>
         </article>
         <article class="card">
-          <h3>Điểm đặc biệt</h3>
-          <p>Tết này không giống tết xưa vì không phải đi chợ mua nguyên liệu về gói bánh, quây quần gia đình bên nhau cả đêm. Thay vào đó thì sẽ đi dạo chợ tết mua hoa trang trí nhà cửa.</p>
+          <h3>Có gì đặc biệt?</h3>
+          <p>Tình làng nghĩa xóm rõ nét: cùng dọn nhà, gói bánh và đi chúc Tết đầu năm.</p>
         </article>
         <article class="card">
           <h3>Mục đích website</h3>
-          <p>Giới thiệu nét Tết quê hương theo yêu cầu môn học và chia sẻ kỷ niệm xuân.</p>
+          <p>Ghi lại nét đẹp Tết quê em, trình bày gọn đúng yêu cầu môn học.</p>
         </article>
       </div>
     </section>
 
-    <section class="section section-accent">
+    <section class="section section-accent" id="phong-tuc">
       <div class="container">
-        <h2>Các mục nổi bật</h2>
-        <div class="feature-grid">
-          <a class="feature-card" href="gioi-thieu.html">
-            <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=900&q=80" alt="Giới thiệu quê hương" />
-            <div><h3>Giới thiệu quê hương</h3><p>Vị trí, con người, khác biệt ngày Tết.</p></div>
-          </a>
-          <a class="feature-card" href="phong-tuc.html">
-            <img src="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fmia.vn%2Fcam-nang-du-lich%2F40-dieu-tho-dia-phu-yen-2646&ved=0CBYQjRxqFwoTCLiRgvLq-ZIDFQAAAAAdAAAAABAI&opi=89978449" alt="Phong tục ngày Tết" />
-            <div><h3>Phong tục - Nghi lễ</h3><p>Trước Tết, trong Tết, sau Tết.</p></div>
-          </a>
-          <a class="feature-card" href="am-thuc.html">
-            <img src="https://myhanhseafood.vn/mon-an-ngay-tet-nhung-net-dac-trung-cua-am-thuc-mien-trung/" alt="Ẩm thực ngày Tết" />
-            <div><h3>Ẩm thực quê hương</h3><p>Bánh truyền thống, món mặn ngọt và ý nghĩa.</p></div>
-          </a>
-          <a class="feature-card" href="van-hoa.html">
-            <img src="https://www.facebook.com/groups/1785038468362842/" alt="Văn hóa lễ hội" />
-            <div><h3>Văn hóa - Lễ hội</h3><p>Trò chơi dân gian và không khí chợ xuân.</p></div>
-          </a>
+        <h2>2. Phong tục - Nghi lễ</h2>
+        <div class="timeline">
+          <article class="timeline-item"><h3>Trước Tết</h3><ul><li>Dọn dẹp nhà cửa.</li><li>Cúng ông Công ông Táo.</li><li>Gói bánh chưng, bánh tét.</li></ul></article>
+          <article class="timeline-item"><h3>Trong Tết</h3><ul><li>Cúng giao thừa.</li><li>Chúc Tết, lì xì.</li><li>Đi chùa, đi đình xin lộc.</li></ul></article>
+          <article class="timeline-item"><h3>Sau Tết</h3><ul><li>Hóa vàng.</li><li>Lễ hội đầu xuân.</li><li>Bắt đầu công việc năm mới.</li></ul></article>
         </div>
       </div>
     </section>
 
-    <section class="section container">
-      <h2>Một số hình ảnh tiêu biểu</h2>
-      <div class="gallery six">
-        <figure><img src="https://www.facebook.com/groups/YAN.VietNamOi/posts/26344099175196675/" alt="Đường hoa"><figcaption>Đường hoa xuân.</figcaption></figure>
-        <figure><img src="mâm cỗ.jpg" alt="Mâm cỗ"><figcaption>Mâm cỗ sum vầy.</figcaption></figure>
-        <figure><img src="z7570653697414_a4c53281ee7669d4b414a93364e288ba.jpg" alt="Hoa Tết"><figcaption>Hoa xinh đầu xuân.</figcaption></figure>
-        <figure><img src="z7570653621502_8b156881b5d758c5cd7fcaf05a6b61e1.jpg" alt="Gia đình"><figcaption>Đoàn viên ngày Tết.</figcaption></figure>
+    <section class="section container" id="am-thuc">
+      <h2>3. Ẩm thực ngày Tết</h2>
+      <div class="foods">
+        <article class="food-card"><img src="https://images.unsplash.com/photo-1604349263298-349135237b6e?auto=format&fit=crop&w=900&q=80" alt="Bánh chưng"><div><h3>Bánh chưng - bánh tét</h3><p>Mang ý nghĩa đủ đầy và gắn kết gia đình.</p></div></article>
+        <article class="food-card"><img src="https://images.unsplash.com/photo-1576402187878-974f70c890a5?auto=format&fit=crop&w=900&q=80" alt="Mâm cỗ"><div><h3>Món mặn ngày Tết</h3><p>Thịt kho, chả lụa, dưa món cho bữa cơm đoàn viên.</p></div></article>
+        <article class="food-card"><img src="https://images.unsplash.com/photo-1584263347416-85a696b4eda7?auto=format&fit=crop&w=900&q=80" alt="Mứt"><div><h3>Món ngọt - mứt</h3><p>Vị ngọt đầu năm gửi lời chúc may mắn.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="van-hoa">
+      <div class="container">
+        <h2>4. Văn hóa - Sinh hoạt</h2>
+        <div class="grid-3">
+          <article class="card"><h3>Trò chơi dân gian</h3><p>Kéo co, cờ người, nhảy sạp tạo không khí vui tươi.</p></article>
+          <article class="card"><h3>Lễ hội đầu xuân</h3><p>Văn nghệ, múa lân, sinh hoạt cộng đồng sau Tết.</p></article>
+          <article class="card"><h3>Chợ quê ngày Tết</h3><p>Đông vui, đủ hoa trái và tiếng cười thân thuộc.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="album">
+      <h2>5. Hình ảnh tiêu biểu</h2>
+      <div class="gallery">
+        <figure><img src="https://images.unsplash.com/photo-1611691543540-6f4dff7e94ba?auto=format&fit=crop&w=900&q=80" alt="Đường hoa"><figcaption>Đường hoa xuân.</figcaption></figure>
+        <figure><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=900&q=80" alt="Chợ Tết"><figcaption>Chợ Tết nhộn nhịp.</figcaption></figure>
+        <figure><img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=900&q=80" alt="Gói bánh"><figcaption>Gói bánh đêm cuối năm.</figcaption></figure>
+        <figure><img src="https://images.unsplash.com/photo-1576402187878-974f70c890a5?auto=format&fit=crop&w=900&q=80" alt="Mâm cỗ"><figcaption>Mâm cỗ đoàn viên.</figcaption></figure>
+        <figure><img src="https://images.unsplash.com/photo-1584263347416-85a696b4eda7?auto=format&fit=crop&w=900&q=80" alt="Mứt Tết"><figcaption>Mứt ngọt đầu xuân.</figcaption></figure>
+        <figure><img src="https://images.unsplash.com/photo-1511795409834-432f7b1728d2?auto=format&fit=crop&w=900&q=80" alt="Gia đình"><figcaption>Gia đình sum họp.</figcaption></figure>
       </div>
     </section>
 
     <section class="section section-quote">
       <div class="container">
-        <blockquote>“Tết là chuyến trở về đẹp nhất: về nhà, về với những người mình thương.”</blockquote>
+        <blockquote>“Tết là chuyến trở về đẹp nhất: về nhà, về bếp lửa, về với những người mình thương.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section container" id="lien-he">
+      <h2>6. Liên hệ / Đóng góp</h2>
+      <div class="grid-2">
+        <form class="card contact-form">
+          <label>Họ và tên<input type="text" required></label>
+          <label>Email<input type="email" required></label>
+          <label>Nội dung<textarea rows="4" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Gửi góp ý</button>
+        </form>
+        <article class="card">
+          <h3>Thông tin người thực hiện</h3>
+          <p>Trịnh Nữ Thiện Kiều - MSSV 2001240238</p>
+          <p>Địa phương: Tuy Hòa, Đắk Lắk</p>
+          <iframe src="https://www.google.com/maps?q=Tuy%20Hoa%20Dak%20Lak&output=embed" loading="lazy" title="Bản đồ Tuy Hòa"></iframe>
+        </article>
       </div>
     </section>
   </main>
@@ -98,5 +122,7 @@
   <footer class="footer">
     <p>Chúc mừng năm mới 2026 - Mã đáo thành công 🐎</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
